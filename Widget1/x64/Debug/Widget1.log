@@ -1,0 +1,9 @@
+﻿  uic Widget1.ui
+  Widget1.cpp
+  MainManue.cpp
+  main.cpp
+  moc_MainManue.cpp
+  moc_ShowScoreManue.cpp
+  moc_Widget1.cpp
+  moc_homeworkManue.cpp
+  Widget1.vcxproj -> D:\VS test2\Widget1\x64\Debug\Widget1.exe

@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/MainManue">
+        <file>resource/back.jpg</file>
+        <file>resource/密码锁2.png</file>
+        <file>resource/用户图标.jpg</file>
+    </qresource>
+</RCC>
