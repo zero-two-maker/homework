@@ -1,7 +1,6 @@
 #include "MainManue.h"
 #include "ui_MainManue.h"
 #include<qdebug.h>
-#include "mysql.h"
 #include <QSqlQueryModel>
 
 using namespace std;
@@ -26,9 +25,9 @@ void MainManue::ConnectDatabase()
     //初始化数据库
     qDebug() << QSqlDatabase::drivers();
     db = QSqlDatabase::addDatabase("QODBC");
-    db.setHostName("192.168.1.107");
-    db.setUserName("root");
-    db.setPassword("aa23fve6");
+    //db.setHostName("192.168.1.107");
+    //db.setUserName("root");
+    //db.setPassword("aa23fve6");
     db.setDatabaseName("homework");
     db.setPort(3306);   
     db.exec("SET NAMES 'GB2312'");

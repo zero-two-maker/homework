@@ -1,10 +1,2 @@
-﻿  moc Widget1.h
-  moc Widget2.h
-  MainManue.cpp
-  Widget1.cpp
-  Widget2.cpp
-  main.cpp
-  moc_MainManue.cpp
-  moc_Widget1.cpp
-  moc_Widget2.cpp
-  Widget1.vcxproj -> D:\VS test2\Widget1\x64\Debug\Widget1.exe
+﻿  MainManue.cpp
+  Widget1.vcxproj -> D:\clone\master\x64\Debug\Widget1.exe
