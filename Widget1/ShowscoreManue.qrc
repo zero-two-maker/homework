@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/ShowScoreManue">
+        <file>resource/back.jpg</file>
+        <file>resource/用户图标.jpg</file>
+    </qresource>
+</RCC>

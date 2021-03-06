@@ -26,7 +26,7 @@ void MainManue::ConnectDatabase()
     //初始化数据库
     qDebug() << QSqlDatabase::drivers();
     db = QSqlDatabase::addDatabase("QODBC");
-    db.setHostName("localhost");
+    db.setHostName("192.168.1.107");
     db.setUserName("root");
     db.setPassword("aa23fve6");
     db.setDatabaseName("homework");

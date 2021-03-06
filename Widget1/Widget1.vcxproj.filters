@@ -36,6 +36,9 @@
     <ClCompile Include="MainManue.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <QtRcc Include="ShowscoreManue.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">

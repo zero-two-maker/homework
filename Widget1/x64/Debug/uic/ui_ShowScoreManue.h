@@ -11,6 +11,7 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QComboBox>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QWidget>
 
@@ -20,15 +21,20 @@ class Ui_ShowScoreManue
 {
 public:
     QPushButton *exitbtn;
+    QComboBox *comboBox;
 
     void setupUi(QWidget *ShowScoreManue)
     {
         if (ShowScoreManue->objectName().isEmpty())
             ShowScoreManue->setObjectName(QString::fromUtf8("ShowScoreManue"));
         ShowScoreManue->resize(1073, 630);
+        ShowScoreManue->setStyleSheet(QString::fromUtf8(""));
         exitbtn = new QPushButton(ShowScoreManue);
         exitbtn->setObjectName(QString::fromUtf8("exitbtn"));
-        exitbtn->setGeometry(QRect(960, 20, 93, 28));
+        exitbtn->setGeometry(QRect(970, 10, 93, 28));
+        comboBox = new QComboBox(ShowScoreManue);
+        comboBox->setObjectName(QString::fromUtf8("comboBox"));
+        comboBox->setGeometry(QRect(30, 30, 211, 22));
 
         retranslateUi(ShowScoreManue);
 

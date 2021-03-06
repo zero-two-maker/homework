@@ -13,11 +13,14 @@
   <property name="windowTitle">
    <string>成绩统计界面</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
   <widget class="QPushButton" name="exitbtn">
    <property name="geometry">
     <rect>
-     <x>960</x>
-     <y>20</y>
+     <x>970</x>
+     <y>10</y>
      <width>93</width>
      <height>28</height>
     </rect>
@@ -26,8 +29,20 @@
     <string>返回</string>
    </property>
   </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>211</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
- <resources/>
+ <resources>
+  <include location="ShowscoreManue.qrc"/>
+ </resources>
  <connections/>
 </ui>

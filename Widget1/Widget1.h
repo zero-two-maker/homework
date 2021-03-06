@@ -2,7 +2,6 @@
 
 #include <QWidget>
 #include "ui_Widget1.h"
-#include "mysql.h"
 #include <QSqlDatabase>
 #include <QDebug>
 #include <QSqlQuery>

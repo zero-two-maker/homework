@@ -1,5 +1,4 @@
 #include "Widget2.h"
-#include <mysql.h>
 Widget2::Widget2(QSqlDatabase db, QString name, QWidget *parent)
 	: QWidget(parent)
 {
